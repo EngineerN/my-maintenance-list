@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Rust - Run Server - Debug / Web Debug" type="CargoCommandRunConfiguration" factoryName="Cargo Command" folderName="Run">
-    <option name="command" value="run --package server --bin server --features &quot;debug-web&quot;" />
+    <option name="command" value="run --package my-maintenance-list --bin my-maintenance-list --features &quot;debug-web&quot;" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$" />
     <option name="emulateTerminal" value="true" />
     <option name="channel" value="DEFAULT" />
