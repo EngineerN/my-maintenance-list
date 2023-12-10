@@ -1,4 +1,5 @@
 {
+  "name": "my-maintenance-list",
   "workspaces": [
     "crates/lib-web"
   ]

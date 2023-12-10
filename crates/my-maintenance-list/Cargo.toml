@@ -1,5 +1,5 @@
 [package]
-name = "server"
+name = "my-maintenance-list"
 edition = "2021"
 publish = false
 version.workspace = true

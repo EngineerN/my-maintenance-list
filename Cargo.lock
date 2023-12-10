@@ -473,6 +473,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "my-maintenance-list"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "lib-api-router",
+ "lib-web-router",
+ "tokio",
+]
+
+[[package]]
 name = "num_cpus"
 version = "1.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -727,16 +737,6 @@ dependencies = [
  "itoa",
  "ryu",
  "serde",
-]
-
-[[package]]
-name = "server"
-version = "0.1.0"
-dependencies = [
- "axum",
- "lib-api-router",
- "lib-web-router",
- "tokio",
 ]
 
 [[package]]
