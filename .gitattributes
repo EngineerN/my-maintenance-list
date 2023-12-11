@@ -1,0 +1,15 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Force web files to be lf ending to prevent fighting with Prettier.
+*.js text=auto eol=lf
+*.ts text=auto eol=lf
+*.vue text=auto eol=lf
+*.css text=auto eol=lf
+*.scss text=auto eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.afdesign binary
+*.ico binary
